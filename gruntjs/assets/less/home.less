@@ -1,0 +1,112 @@
+@import "variables.less";
+
+body.page-home {
+	
+	background: @blue-dark;
+	color : @light-blue;
+	
+	header{
+		border-bottom: 1px solid #1C618E;
+		max-height: 50px;
+		margin: 0;
+	}
+	
+	footer{
+		border-top: 1px solid #1C618E;
+		min-height: 100px;
+		width: 100%;
+		padding-top: 30px;
+		text-align: center;
+		text-shadow: 0 1px 0 rgba(28, 97, 142, 0.9);
+		
+		a {
+			color:  #ACD4EF;
+			text-transform: uppercase;
+		
+			&:hover{
+				color: #fff;
+			}
+		}
+		
+		p{
+			color:  #5DADE2;
+			margin: 0;
+			padding: 0;
+			line-height: 12px;
+		}
+	}
+	
+	.wrapper {
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+	
+	#content {
+		padding: 120px 0 100px;
+		background: @blue;
+		
+	}
+	
+	#app_info{
+		padding-top: 10px;
+		padding-right: 30px;
+		text-align: right;
+	
+		.logo{
+			h1 {
+				font-family: @font-logo;
+				font-size: 58px;
+				display: block;
+				line-height: 40px;
+				height: auto !important;
+				text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+			}
+			span {
+				color: #f4b04f;
+			}
+		}
+		
+		p {
+			color: @light-blue-dark;
+			margin: 30px 0 40px;
+		}
+	}
+	
+	
+	
+	ul.social {
+		list-style: none;
+		float: left;
+		padding: 10px 0 0;
+		
+		li {
+			float: left;
+			margin-right: 5px;
+		
+			a {
+				width: 24px;
+				height: 24px;
+				display: block;
+				text-indent: -99999px;
+				background: url('../img/light-social.png') no-repeat top left;
+			}
+			
+			&.facebook {
+				a 	 	{ background-position: 0px 0px; }
+				a:hover { background-position: -24px 0px; }
+			}
+			
+			&.twitter {
+				a 			{ background-position: 0px -24px; }
+				a:hover 	{ background-position: -24px -24px; }
+			}
+			
+			&.email {
+				a 			{ background-position: 0px -144px; }
+				a:hover 	{ background-position: -24px -144px; }
+			}
+		}
+		
+	}
+	
+}

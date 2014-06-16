@@ -1,0 +1,225 @@
+div.dataTables_info {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-size:12px;
+	float:left;
+	display:inline-block;
+	padding-right:14px;
+}
+
+div.dataTables_paginate {
+	float: right;
+	margin: 0;
+	margin-left:8px
+}
+
+table.table {
+	clear: both;
+	margin-bottom: 6px;
+	max-width: none;
+	border: none;
+}
+
+table.table thead .sorting,
+table.table thead .sorting_asc,
+table.table thead .sorting_desc,
+table.table thead .sorting_asc_disabled,
+table.table thead .sorting_desc_disabled {
+	cursor: pointer;
+	*cursor: hand;
+}
+
+table.table thead tr.row th {
+	position: relative;
+}
+table.table thead .sorting { }
+table.table thead .sorting_asc_disabled {}
+table.table thead .sorting_desc_disabled { }
+
+table.dataTable th:active {
+	outline: none;
+}
+
+/* Scrolling */
+div.dataTables_scrollHead table {
+	margin-bottom: 0 !important;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+div.dataTables_scrollHead table thead tr:last-child th:first-child,
+div.dataTables_scrollHead table thead tr:last-child td:first-child {
+	border-bottom-left-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+}
+
+div.dataTables_scrollBody table {
+	border-top: none;
+	margin-bottom: 0 !important;
+}
+
+div.dataTables_scrollBody tbody tr:first-child th,
+div.dataTables_scrollBody tbody tr:first-child td {
+	border-top: none;
+}
+
+div.dataTables_scrollFoot table {
+	border-top: none;
+}
+
+
+/*
+ * TableTools styles
+ */
+.table tbody tr.active td,
+.table tbody tr.active th {
+	background-color: #08C;
+	color: white;
+}
+
+table.dataTable thead {
+	position: relative;
+	border-top: none;
+	border-bottom: none;
+}
+
+table.dataTable thead .sorting:after {
+}
+
+table.dataTable thead tr th {
+	border-bottom: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 1px solid #dfe4ee;
+	border-bottom: 1px solid #dfe4ee;
+}
+
+table.dataTable thead {
+	background: rgba(0, 0, 0, 0.04);
+	border-top: 1px solid #dfe4ee;
+}
+table.dataTable thead .sorting_asc {
+	background: rgba(0, 0, 0, 0.05)
+}
+
+table.dataTable thead .sorting_asc:after {
+	content: "\f0dd";
+	display: block
+}
+
+table.dataTable thead .sorting_desc {
+	background: rgba(0, 0, 0, 0.05)
+}
+
+table.dataTable thead .sorting_desc:after {
+	content: "\f0de";
+	display: block
+}
+
+table.dataTable thead .sorting_asc_disabled:after {
+	opacity: .3
+}
+
+table.dataTable thead .sorting_desc_disabled:after {
+	opacity: .3
+}
+
+table.dataTable th:after {
+	display: none;
+	font-family: FontAwesome;
+	font-size: 11px;
+	font-weight: normal !important;
+	line-height: 20px;
+	height: 20px;
+	width: 20px;
+	float: right;
+	margin-right: -15px;
+	position: relative;
+}
+
+table.dataTable .checkbox-inline{
+	position: relative !important;
+	padding: 0;
+	margin-top: -6px;
+}
+
+table.dataTable .checkbox-inline input.px{
+	top: 2px;
+	left: 0;
+	position: absolute;
+}
+
+table.dataTable td .checkbox-inline input[type="checkbox"].px+.lbl:after {
+	top: 2px;
+	left: 1px;
+	line-height: 15px;
+}
+
+table.dataTable {
+	overflow: scroll;
+}
+body.pace-running .pace-activity {
+	z-index: 1100;
+	position: fixed;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, .4);
+}
+
+
+body.pace-running.modal-open .pace-activity {
+	display: none;
+}
+
+.pace {
+	-webkit-pointer-events: none;
+	pointer-events: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	z-index: 1100;
+	position: fixed;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 5px;
+	width: 200px;
+	background: #fff;
+	border: 1px solid #0aa699;
+}
+
+.pace .pace-progress {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: width 1s ease-in-out 1s linear;
+	-moz-transition: width 1s ease-in-out 1s linear;
+	-ms-transition: width 1s ease-in-out 1s linear;
+	-o-transition: width 1s ease-in-out 1s linear;
+	transition: width 1s ease-in-out 1s linear;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	max-width: 200px;
+	position: fixed;
+	z-index: 2000;
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	background: #2f87c1;
+}
+
+.pace.pace-inactive {
+	display: none;
+}

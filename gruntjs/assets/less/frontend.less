@@ -1,0 +1,151 @@
+@import "variables.less";
+
+body.page-frontend{
+	
+	background: @white;
+	
+	.wrapper {
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+	
+	#content {
+		padding: 80px 0 50px;
+		background: @light-blue;
+	}
+	
+	#frontend-container{
+		
+		padding: 0 90px;
+		
+		.header-text {
+			color: #777;
+			display: block;
+			font-size: 15px;
+			font-style: italic;
+			margin-bottom: 25px;
+			position: relative;
+			text-align: center;
+			
+			span {
+				background: @white;
+				display: inline-block;
+				padding: 0 20px;
+				position: relative
+			}
+			
+			&:before {
+				background: #e4e4e4;
+				content: "";
+				display: block;
+				height: 1px;
+				left: 0;
+				position: absolute;
+				right: 0;
+				top: 50%
+			}
+		}
+		
+		h1.logo {
+			font-family: @font-logo;
+			font-size: 55px;
+			text-align: center;
+			margin-bottom: 50px;
+		}
+		
+		h1.logo a{
+			display: block;
+			color: @blue;
+		}
+		
+		.form-actions {
+			padding: 20px 0 50px;
+		}
+		
+		.signin-footer {
+			padding-top: 20px;
+		}
+	}
+	
+	footer{
+		border-top: 1px solid #ccc;
+		min-height: 100px;
+		width: 100%;
+		padding-top: 30px;
+		text-align: center;
+		text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+		
+		a {
+			color:  #555;
+			text-transform: uppercase;
+		
+			&:hover{
+				color: #333;
+			}
+		}
+		
+		p{
+			color:  #777;
+			margin: 0;
+			padding: 0;
+			line-height: 12px;
+		}
+	}
+}
+
+
+.form-group{
+	.forgot-password{
+		line-height: 22px;
+	}
+
+	&.w-icon{
+		margin: 0;
+		position: relative;
+		
+		&+.form-group {
+			margin: 10px 0 0 0
+		}
+		
+		.form-icon{
+			z-index: 1025;
+			border-right: 1px solid @gray-blue;
+			bottom: 9px;
+			color: #d6d6d6;
+			display: block;
+			font-size: 14px;
+			left: 0;
+			line-height: 27px;
+			max-height: 27px;
+			position: absolute;
+			text-align: center;
+			top: 9px;
+			width: 40px;
+			z-index: 1002;
+			-webkit-transition: all .3s;
+			transition: all .3s;
+		}
+		
+		input[type="text"]{
+			&:focus+.signin-form-icon {
+				color: #888
+			}
+			
+			font-size: 15px;
+			padding-left: 56px
+		}
+		
+		input[type="password"]:extend(.form-group.w-icon input[type="text"]) {}
+	}
+}
+
+
+.panel-footer {
+	background: #f4f4f4;
+	border-top: 1px solid #ddd;
+	padding-left: 20px;
+	padding-right: 20px
+}
+
+
+

@@ -1,0 +1,817 @@
+.theme-winkel .table,.theme-winkel .panel,.theme-winkel hr {
+	border-color: #e2e2e2
+}
+
+.theme-winkel .bordered {
+	border-color: #e2e2e2
+}
+
+.theme-winkel .bordered[class*='bg-'],.theme-winkel [class*='bg-'] .border-t
+{
+	border-color: #fff;
+	border-color: rgba(0, 0, 0, 0.2)
+}
+
+.theme-winkel .panel.panel-transparent>.panel-heading {
+	border-bottom-color: #e2e2e2 !important
+}
+
+.theme-winkel .breadcrumb-page {
+	background: #f6f6f6;
+	border-bottom: 1px solid #e9e9e9;
+	padding-bottom: 6px;
+	padding-top: 6px
+}
+
+.theme-winkel #main-navbar #main-menu-toggle {
+	background: #f8f8f8
+}
+
+.theme-winkel #main-navbar #main-menu-toggle .fa:before {
+	color: #555
+}
+
+
+@media ( min-width :768px) {
+	.theme-winkel #main-navbar .navbar-collapse>div>.navbar-nav {
+		border-left: 1px solid #f1f1f1
+	}
+	.theme-winkel #main-navbar .right>.navbar-nav>li {
+		border-left: 1px solid #f1f1f1;
+		border-right: none
+	}
+	.theme-winkel #main-navbar .navbar-nav>li {
+		border-right: 1px solid #f1f1f1
+	}
+	.theme-winkel #main-navbar .navbar-nav>li>a {
+		color: #555
+	}
+	.theme-winkel #main-navbar .navbar-nav>li>a:hover,.theme-winkel #main-navbar .navbar-nav>li.active>a,.theme-winkel #main-navbar .navbar-nav>li.dropdown.open>a
+		{
+		background: #f8f8f8;
+		border-top: none !important;
+		border-bottom: none !important
+	}
+	.theme-winkel #main-navbar li+li,.theme-winkel #main-navbar .nav+.nav,.theme-winkel #main-navbar .nav+.right
+		{
+		border-top: none
+	}
+	.theme-winkel #main-navbar .dropdown.open>a {
+		margin: 0;
+		border-top: none
+	}
+	.theme-winkel #main-navbar .dropdown-menu {
+		background: #fff;
+		padding: 5px 0
+	}
+	.theme-winkel #main-navbar .dropdown-menu .divider {
+		background-color: #f1f1f1
+	}
+	.theme-winkel #main-navbar .dropdown-menu>li>a {
+		color: #555
+	}
+	.theme-winkel #main-navbar .dropdown-menu>li>a:hover {
+		background: #f1f1f1
+	}
+	.theme-winkel #main-navbar .widget-notifications a {
+		color: !important
+	}
+	.theme-winkel #main-navbar .widget-notifications .notification,.theme-winkel #main-navbar .widget-notifications .notifications-link
+		{
+		border-color: #f1f1f1;
+		-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05) inset;
+		box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05) inset;
+		border-bottom-right-radius: 3px;
+		border-bottom-left-radius: 3px
+	}
+	.theme-winkel #main-navbar .widget-notifications .notification-description
+		{
+		color: #999
+	}
+	.theme-winkel #main-navbar .widget-notifications .notification-ago {
+		color: #bbb
+	}
+	.theme-winkel #main-navbar .widget-notifications .notifications-link:hover
+		{
+		background: #f1f1f1
+	}
+	.theme-winkel #main-navbar .widget-messages-alt a {
+		color: !important
+	}
+	.theme-winkel #main-navbar .widget-messages-alt .message,.theme-winkel #main-navbar .widget-messages-alt .messages-link
+		{
+		border-color: #f1f1f1;
+		border-bottom-right-radius: 3px;
+		border-bottom-left-radius: 3px
+	}
+	.theme-winkel #main-navbar .widget-messages-alt .message-subject {
+		color: #555 !important
+	}
+	.theme-winkel #main-navbar .widget-messages-alt .message-description {
+		color: #aaa
+	}
+	.theme-winkel #main-navbar .widget-messages-alt .message-description a
+		{
+		color: #888
+	}
+	.theme-winkel #main-navbar .widget-messages-alt .messages-link:hover {
+		background: #f1f1f1
+	}
+}
+
+
+@media ( min-width :768px) {
+	.theme-winkel #main-menu .mm-dropdown.open>a {
+		color: #fff
+	}
+	.theme-winkel.mmc #main-menu .navigation>.mm-dropdown.open>a {
+		color: #808b9c
+	}
+}
+
+
+
+.theme-winkel .nav-icon-btn.nav-icon-btn-primary .label {
+	background: #1d89cf
+}
+
+.theme-winkel .btn-primary {
+	color: #fff
+}
+
+.theme-winkel .btn-primary,.theme-winkel .btn-primary:focus {
+	border-color: #1b80c2;
+	border-bottom-color: #146090;
+	background: #1d89cf;
+	background-image: -webkit-linear-gradient(top, #1e8cd3 0, #1a7ab9 100%);
+	background-image: linear-gradient(to bottom, #1e8cd3 0, #1a7ab9 100%);
+	background-repeat: repeat-x
+}
+
+.theme-winkel .btn-primary:hover {
+	color: #fff;
+	border-color: #1b80c2;
+	border-bottom-color: #0f486d;
+	background: #1a7ab9 !important;
+	background-image: -webkit-linear-gradient(top, #1c83c6 0%, #1871ab 100%)
+		!important;
+	background-image: linear-gradient(to bottom, #1c83c6 0%, #1871ab 100%)
+		!important;
+	background-repeat: repeat-x
+}
+
+.theme-winkel .btn-primary:active,.theme-winkel .btn-primary.active,.open .theme-winkel .btn-primary.dropdown-toggle
+	{
+	border-bottom-color: #146090 !important;
+	background: none;
+	background: #1a7dbd !important
+}
+
+.theme-winkel .btn-primary:active,.theme-winkel .btn-primary.active,.open .theme-winkel .btn-primary.dropdown-toggle
+	{
+	border-color: #146090;
+	color: #fff;
+	-webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.1) inset;
+	box-shadow: 0 0 12px rgba(0, 0, 0, 0.1) inset
+}
+
+.theme-winkel .btn-primary.btn-flat {
+	background: #1b80c2
+}
+
+.theme-winkel .btn-primary.btn-flat:hover,.theme-winkel .btn-primary.btn-flat:active,.theme-winkel .btn-primary.btn-flat.active,.open .theme-winkel .btn-primary.btn-flat.dropdown-toggle
+	{
+	background: #1b80c2 !important;
+	color: #fff;
+	border-color: #1b80c2;
+	border-bottom-color: #0f486d;
+	background: #1977b4
+}
+
+.theme-winkel .btn-primary.btn-outline:hover,.theme-winkel .btn-primary.btn-outline.btn-flat:hover
+	{
+	color: #fff;
+	border-color: #1b80c2;
+	border-bottom-color: #0f486d
+}
+
+.theme-winkel .btn-primary.btn-outline:active,.theme-winkel .btn-primary.btn-outline.btn-flat:active
+	{
+	border-color: #1b80c2
+}
+
+.btn-group .theme-winkel .btn-primary,.btn-group .theme-winkel .btn-primary:focus,.input-group-btn .theme-winkel .btn-primary,.input-group-btn .theme-winkel .btn-primary:focus
+	{
+	border-left-color: #1871ab;
+	border-right-color: #1871ab
+}
+
+.btn-group .theme-winkel .btn-primary:hover,.btn-group.open .theme-winkel .btn-primary.dropdown-toggle,.input-group-btn .theme-winkel .btn-primary:hover,.input-group-btn.open .theme-winkel .btn-primary.dropdown-toggle
+	{
+	border-color: #146090
+}
+
+.btn-group .theme-winkel .btn-primary:active,.btn-group .theme-winkel .btn-primary.active,.input-group-btn .theme-winkel .btn-primary:active,.input-group-btn .theme-winkel .btn-primary.active
+	{
+	border-left-color: #146090;
+	border-right-color: #146090
+}
+
+.theme-winkel .open .btn.btn-primary.dropdown-toggle {
+	color: #fff;
+	border-bottom-color: #146090 !important;
+	background: none;
+	background: #1a7dbd !important
+}
+
+.theme-winkel .progress-bar {
+	background: #1d89cf;
+	border-color: #1977b4
+}
+
+.theme-winkel .progress-striped .progress-bar {
+	background-color: #1d89cf;
+	background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, rgba(255, 255,
+		255, 0.1) ), color-stop(.25, transparent), color-stop(.5, transparent),
+		color-stop(.5, rgba(255, 255, 255, 0.1) ),
+		color-stop(.75, rgba(255, 255, 255, 0.1) ),
+		color-stop(.75, transparent), to(transparent) );
+	background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.1)
+		25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%,
+		rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent );
+	background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.1)
+		25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%,
+		rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent );
+	background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%,
+		transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%,
+		rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent );
+	background-size: 10px 10px
+}
+
+.theme-winkel .label.label-primary {
+	background: #1d89cf
+}
+
+.theme-winkel .label.label-primary[href]:hover,.theme-winkel .label.label-primary[href]:focus
+	{
+	background-color: #176ba2
+}
+
+.theme-winkel .label.label-primary.label-tag {
+	border: 1px solid #1d89cf
+}
+
+.theme-winkel .label.label-primary.label-tag:before {
+	border-color: transparent #1d89cf transparent transparent
+}
+
+.theme-winkel .label.label-primary.label-tag[href]:hover,.theme-winkel .label.label-primary.label-tag[href]:focus
+	{
+	border-color: #176ba2
+}
+
+.theme-winkel .label.label-primary.label-tag[href]:hover:before,.theme-winkel .label.label-primary.label-tag[href]:focus:before
+	{
+	border-color: transparent #176ba2 transparent transparent
+}
+
+.theme-winkel .badge.badge-primary {
+	background: #1d89cf;
+	border: 1px solid #1d89cf
+}
+
+.theme-winkel .badge.badge-primary[href]:hover,.theme-winkel .badge.badge-primary[href]:focus
+	{
+	background-color: #176ba2;
+	border-color: #176ba2
+}
+
+.theme-winkel .badge.badge-primary {
+	background: #1d89cf;
+	border: 1px solid #1d89cf
+}
+
+.theme-winkel .badge.badge-primary[href]:hover,.theme-winkel .badge.badge-primary[href]:focus
+	{
+	background-color: #176ba2;
+	border-color: #176ba2
+}
+
+.theme-winkel .table-primary table {
+	border-top-color: #23638c !important
+}
+
+.theme-winkel .table-primary thead,.theme-winkel .table-primary thead tr,.theme-winkel .table-primary thead th,.theme-winkel .table-primary .table-header
+	{
+	border-color: #23638c !important;
+	color: #fff
+}
+
+.theme-winkel .table-primary thead tr,.theme-winkel .table-primary thead th
+	{
+	background: #2175ac
+}
+
+.theme-winkel .table-primary .table-header {
+	background: #1d89cf
+}
+
+.theme-winkel .nav-tabs>li.active>a,.theme-winkel .nav-tabs>li.active>a:hover,.theme-winkel .nav-tabs>li.active>a:focus
+	{
+	background: #1d89cf;
+	border-bottom: 2px solid #1a7ab9
+}
+
+.theme-winkel .nav-tabs .nav-tabs.nav-justified>.active>a {
+	border-bottom-color: #1a7ab9
+}
+
+.theme-winkel .nav-pills>li.active>a,.theme-winkel .nav-pills>li.active>a:hover,.theme-winkel .nav-pills>li.active>a:focus
+	{
+	background: #1d89cf
+}
+
+.theme-winkel .dropdown-menu>li>a:hover,.theme-winkel .dropdown-menu>li.active>a
+	{
+	background: #1d89cf
+}
+
+.theme-winkel .dropdown-menu>li>a:hover {
+	color: #fff
+}
+
+.theme-winkel .btn-group .btn-primary,.theme-winkel .btn-group .btn-primary:focus,.theme-winkel .input-group-btn .btn-primary,.theme-winkel .input-group-btn .btn-primary:focus
+	{
+	border-left-color: #1871ab;
+	border-right-color: #1871ab
+}
+
+.theme-winkel .btn-group .btn-primary:hover,.theme-winkel .btn-group.open .btn-primary.dropdown-toggle,.theme-winkel .input-group-btn .btn-primary:hover,.theme-winkel .input-group-btn.open .btn-primary.dropdown-toggle
+	{
+	border-color: #146090
+}
+
+.theme-winkel .btn-group .btn-primary:active,.theme-winkel .btn-group .btn-primary.active,.theme-winkel .input-group-btn .btn-primary:active,.theme-winkel .input-group-btn .btn-primary.active
+	{
+	border-left-color: #146090;
+	border-right-color: #146090
+}
+
+.theme-winkel .pagination>li>a:hover {
+	border-color: #1d89cf
+}
+
+.theme-winkel .pagination>li.active>a,.theme-winkel .pagination>li.active>a:hover,.theme-winkel .pagination>li.active>a:focus,.theme-winkel .pagination>li.active>span
+	{
+	background: #1d89cf;
+	border-color: #1d89cf
+}
+
+.theme-winkel .pager li>a:hover {
+	border-color: #1d89cf
+}
+
+.theme-winkel a.list-group-item.active {
+	background: #1d89cf;
+	border-color: #1d89cf
+}
+
+.theme-winkel a.list-group-item.active .list-group-item-text {
+	color: #c2e2f6
+}
+
+.theme-winkel .form-control:focus,.theme-winkel .form-control.focus {
+	border-color: #1d89cf;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none
+}
+
+.gt-ie8 .theme-winkel input.px:focus+.lbl:before,.gt-ie8 .theme-winkel input.px+.lbl:hover:before
+	{
+	border-color: #1d89cf
+}
+
+.gt-ie8 .theme-winkel input[type="checkbox"].px+.lbl:after {
+	color: #1d89cf
+}
+
+.gt-ie8 .theme-winkel input[type="radio"].px+.lbl:after {
+	background: #1d89cf
+}
+
+.theme-winkel .text-primary,.theme-winkel .text-primary:hover,.theme-winkel .text-primary:active,.theme-winkel .text-primary:focus,.theme-winkel .text-primary a,.theme-winkel .text-primary a:focus
+	{
+	color: #1d89cf
+}
+
+.theme-winkel .text-primary a:hover,.theme-winkel .text-primary a:active
+	{
+	color: #145d8c
+}
+
+.theme-winkel .bg-primary {
+	background: #1d89cf
+}
+
+.theme-winkel .bg-primary[href]:hover {
+	background: #227fbb
+}
+
+.theme-winkel .bg-primary.darken {
+	background: #227fbb
+}
+
+.theme-winkel .bg-primary.darken[href]:hover {
+	background: #1f76ae
+}
+
+.theme-winkel .bg-primary.darker {
+	background: #1f76ae
+}
+
+.theme-winkel .bg-primary.darker[href]:hover {
+	background: #1d6da1
+}
+
+.theme-winkel .bg-primary,.theme-winkel .bg-primary:hover,.theme-winkel .bg-primary:active,.theme-winkel .bg-primary:focus,.theme-winkel .bg-primary a,.theme-winkel .bg-primary a:focus
+	{
+	color: #fff
+}
+
+.theme-winkel .bg-primary a:hover,.theme-winkel .bg-primary a:active {
+	color: #d9d9d9
+}
+
+.theme-winkel .bg-primary[href]:hover,.theme-winkel .bg-primary [href]:hover
+	{
+	color: #fff
+}
+
+.theme-winkel .bg-primary * {
+	border-color: #2e9be2
+}
+
+.theme-winkel .ui-slider-handle.ui-state-active:before {
+	background: #1d89cf
+}
+
+.theme-winkel .ui-slider-range {
+	background: #1d89cf
+}
+
+.theme-winkel .ui-autocomplete>li>a:hover,.theme-winkel .ui-autocompletev>li.active>a
+	{
+	background: #1d89cf
+}
+
+.theme-winkel .ui-autocomplete>li>a:hover {
+	color: #fff
+}
+
+.theme-winkel .ui-autocomplete .ui-state-focus {
+	background: #1d89cf;
+	color: #fff
+}
+
+.theme-winkel .ui-menu .ui-menu-item a:hover,.theme-winkel .ui-menu .ui-menu-item a.ui-state-focus,.theme-winkel .ui-menu .ui-menu-item a.ui-state-active
+	{
+	background: #1d89cf
+}
+
+.theme-winkel .ui-progressbar-value {
+	background: #1d89cf;
+	border-color: #1977b4;
+	background-color: #1d89cf;
+	background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, rgba(255, 255,
+		255, 0.1) ), color-stop(.25, transparent), color-stop(.5, transparent),
+		color-stop(.5, rgba(255, 255, 255, 0.1) ),
+		color-stop(.75, rgba(255, 255, 255, 0.1) ),
+		color-stop(.75, transparent), to(transparent) );
+	background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.1)
+		25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%,
+		rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent );
+	background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.1)
+		25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%,
+		rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent );
+	background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%,
+		transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%,
+		rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent );
+	background-size: 10px 10px
+}
+
+.theme-winkel .ui-tabs-nav>.ui-tabs-active>a,.theme-winkel .ui-tabs-nav>.ui-tabs-active>a:hover,.theme-winkel .ui-tabs-nav>.ui-tabs-active>a:focus
+	{
+	color: #fff;
+	background: #1d89cf;
+	border-bottom: 2px solid #1a7ab9
+}
+
+.theme-winkel .ui-datepicker .ui-state-active {
+	background: #1d89cf !important
+}
+
+.theme-winkel .ui-datepicker-title {
+	background: #1d89cf
+}
+
+.theme-winkel .ui-datepicker th {
+	background: #2f76a4
+}
+
+.theme-winkel .ui-datepicker-buttonpane button.ui-priority-primary {
+	color: #fff
+}
+
+.theme-winkel .ui-datepicker-buttonpane button.ui-priority-primary,.theme-winkel .ui-datepicker-buttonpane button.ui-priority-primary:focus
+	{
+	border-color: #1b80c2;
+	border-bottom-color: #146090;
+	background: #1d89cf;
+	background-image: -webkit-linear-gradient(top, #1e8cd3 0, #1a7ab9 100%);
+	background-image: linear-gradient(to bottom, #1e8cd3 0, #1a7ab9 100%);
+	background-repeat: repeat-x
+}
+
+.theme-winkel .ui-datepicker-buttonpane button.ui-priority-primary:hover
+	{
+	color: #fff;
+	border-color: #1b80c2;
+	border-bottom-color: #0f486d;
+	background: #1a7ab9 !important;
+	background-image: -webkit-linear-gradient(top, #1c83c6 0%, #1871ab 100%)
+		!important;
+	background-image: linear-gradient(to bottom, #1c83c6 0%, #1871ab 100%)
+		!important;
+	background-repeat: repeat-x
+}
+
+.theme-winkel .ui-datepicker-buttonpane button.ui-priority-primary:active,.theme-winkel .ui-datepicker-buttonpane button.ui-priority-primary.active,.open .theme-winkel .ui-datepicker-buttonpane button.ui-priority-primary.dropdown-toggle
+	{
+	border-bottom-color: #146090 !important;
+	background: none;
+	background: #1a7dbd !important
+}
+
+.theme-winkel .ui-datepicker-buttonpane button.ui-priority-primary:active,.theme-winkel .ui-datepicker-buttonpane button.ui-priority-primary.active,.open .theme-winkel .ui-datepicker-buttonpane button.ui-priority-primary.dropdown-toggle
+	{
+	border-color: #146090;
+	color: #fff;
+	-webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.1) inset;
+	box-shadow: 0 0 12px rgba(0, 0, 0, 0.1) inset
+}
+
+.theme-winkel .ui-datepicker-buttonpane button.ui-priority-primary.btn-flat
+	{
+	background: #1b80c2
+}
+
+.theme-winkel .ui-datepicker-buttonpane button.ui-priority-primary.btn-flat:hover,.theme-winkel .ui-datepicker-buttonpane button.ui-priority-primary.btn-flat:active,.theme-winkel .ui-datepicker-buttonpane button.ui-priority-primary.btn-flat.active,.open .theme-winkel .ui-datepicker-buttonpane button.ui-priority-primary.btn-flat.dropdown-toggle
+	{
+	background: #1b80c2 !important;
+	color: #fff;
+	border-color: #1b80c2;
+	border-bottom-color: #0f486d;
+	background: #1977b4
+}
+
+.theme-winkel .ui-datepicker-buttonpane button.ui-priority-primary.btn-outline:hover,.theme-winkel .ui-datepicker-buttonpane button.ui-priority-primary.btn-outline.btn-flat:hover
+	{
+	color: #fff;
+	border-color: #1b80c2;
+	border-bottom-color: #0f486d
+}
+
+.theme-winkel .ui-datepicker-buttonpane button.ui-priority-primary.btn-outline:active,.theme-winkel .ui-datepicker-buttonpane button.ui-priority-primary.btn-outline.btn-flat:active
+	{
+	border-color: #1b80c2
+}
+
+.btn-group .theme-winkel .ui-datepicker-buttonpane button.ui-priority-primary,.btn-group .theme-winkel .ui-datepicker-buttonpane button.ui-priority-primary:focus,.input-group-btn .theme-winkel .ui-datepicker-buttonpane button.ui-priority-primary,.input-group-btn .theme-winkel .ui-datepicker-buttonpane button.ui-priority-primary:focus
+	{
+	border-left-color: #1871ab;
+	border-right-color: #1871ab
+}
+
+.btn-group .theme-winkel .ui-datepicker-buttonpane button.ui-priority-primary:hover,.btn-group.open .theme-winkel .ui-datepicker-buttonpane button.ui-priority-primary.dropdown-toggle,.input-group-btn .theme-winkel .ui-datepicker-buttonpane button.ui-priority-primary:hover,.input-group-btn.open .theme-winkel .ui-datepicker-buttonpane button.ui-priority-primary.dropdown-toggle
+	{
+	border-color: #146090
+}
+
+.btn-group .theme-winkel .ui-datepicker-buttonpane button.ui-priority-primary:active,.btn-group .theme-winkel .ui-datepicker-buttonpane button.ui-priority-primary.active,.input-group-btn .theme-winkel .ui-datepicker-buttonpane button.ui-priority-primary:active,.input-group-btn .theme-winkel .ui-datepicker-buttonpane button.ui-priority-primary.active
+	{
+	border-left-color: #146090;
+	border-right-color: #146090
+}
+
+.theme-winkel .select2-drop-active,.theme-winkel .select2-container-multi.select2-container-active .select2-choices,.theme-winkel .select2-container-multi.select2-dropdown-open .select2-choices
+	{
+	border: 1px solid #1d89cf
+}
+
+.theme-winkel .select2-drop.select2-drop-above.select2-drop-active {
+	border-top: 1px solid #1d89cf
+}
+
+.theme-winkel .select2-container-active .select2-choice,.theme-winkel .select2-container-active .select2-choices
+	{
+	border: 1px solid #1d89cf
+}
+
+.theme-winkel .select2-dropdown-open .select2-drop-above .select2-choice,.theme-winkel .select2-dropdown-open .select2-drop-above .select2-choices
+	{
+	border: 1px solid #1d89cf;
+	border-top-color: #aaa
+}
+
+.theme-winkel .select2-results .select2-highlighted {
+	background: #1d89cf
+}
+
+.theme-winkel .select2-primary .select2-container-multi .select2-choices .select2-search-choice
+	{
+	background: #1d89cf
+}
+
+.theme-winkel .select2-primary .select2-container-multi .select2-choices .select2-search-choice-focus
+	{
+	background: #176ba2
+}
+
+.theme-winkel .select2-primary .select2-container-multi.select2-container-disabled .select2-choices .select2-search-choice
+	{
+	background: #1d89cf !important
+}
+
+.theme-winkel .switcher-primary .switcher-state-on {
+	background: #1d89cf !important
+}
+
+.theme-winkel .pixel-file-input:hover {
+	border-color: #1d89cf
+}
+
+.theme-winkel .datepicker table tr td.selected,.theme-winkel .datepicker table tr td.selected:hover,.theme-winkel .datepicker table tr td.selected.disabled,.theme-winkel .datepicker table tr td.selected.disabled:hover
+	{
+	background: #1d89cf
+}
+
+.theme-winkel .datepicker table tr td.active,.theme-winkel .datepicker table tr td.active:hover,.theme-winkel .datepicker table tr td.active.disabled,.theme-winkel .datepicker table tr td.active.disabled:hover
+	{
+	background: #1d89cf
+}
+
+.theme-winkel .datepicker table tr td span.active,.theme-winkel .datepicker table tr td span.active:hover,.theme-winkel .datepicker table tr td span.active.disabled,.theme-winkel .datepicker table tr td span.active.disabled:hover
+	{
+	background: #1d89cf
+}
+
+.theme-winkel .datepicker thead tr {
+	background: #2f76a4
+}
+
+.theme-winkel .datepicker thead tr:first-child {
+	background: #1d89cf !important;
+	border-bottom-color: #30607f !important
+}
+
+.theme-winkel .datepicker thead th.prev,.theme-winkel .datepicker thead th.next
+	{
+	background: #1d89cf
+}
+
+.theme-winkel .datepicker thead th.prev {
+	border-color: #30607f
+}
+
+.theme-winkel .datepicker thead th.next {
+	border-color: #30607f
+}
+
+.theme-winkel .datepicker>.datepicker-days thead tr:first-child th.cw+.prev
+	{
+	border-color: #30607f
+}
+
+.theme-winkel .datepicker>.datepicker-days thead tr:last-child th.cw+th
+	{
+	border-color: #30607f
+}
+
+.theme-winkel .bootstrap-timepicker-widget table td a:hover {
+	background: #1d89cf;
+	border-color: #1d89cf
+}
+
+.theme-winkel .pagination a.dp-today,.theme-winkel .pagination a.dp-today:hover
+	{
+	background: #3ba1e4;
+	border-color: #2597e0
+}
+
+.theme-winkel .pagination a.dp-today:hover {
+	border-color: #1d89cf !important
+}
+
+.theme-winkel .pagination a.dp-selected {
+	background: #1d89cf !important;
+	border-color: #1d89cf !important
+}
+
+.theme-winkel .tt-suggestion.tt-is-under-cursor {
+	background: #1d89cf
+}
+
+.theme-winkel .table-primary .dataTables_wrapper .DT-per-page {
+	border-color: #23638c !important
+}
+
+.theme-winkel .dropzone-box.dz-drag-hover {
+	border-color: #1d89cf
+}
+
+.theme-winkel .dropzone-box:hover .fa.fa-cloud-upload {
+	background: #1d89cf
+}
+
+
+.theme-winkel .md-editor.active {
+	border-color: #1d89cf
+}
+
+.theme-winkel .widget-rating .active a {
+	color: #1d89cf
+}
+
+
+.theme-winkel .btn.solid {
+	border: 1px solid;
+	color: #fff;
+	border-color: #146090;
+	border-bottom-color: #0f486d;
+	border-left: 2px solid #146090;
+	background: #1a7ab9 !important;
+	background-image: -webkit-linear-gradient(top, #1c83c6 0%, #1871ab 100%)
+		!important;
+	background-image: linear-gradient(to bottom, #1c83c6 0%, #1871ab 100%)
+		!important;
+	background-repeat: repeat-x
+}
+
+.theme-winkel .btn.solid:hover {
+	border: 1px solid #0f486d;
+	margin-left:0px;
+}
+
+.form-group p.text {
+	margin-top: 5px;
+	line-height: 12px;
+}
+
+.form-group p.info {
+	margin-top: 5px;
+	position: relative;
+	line-height: 12px;
+	padding-left: 15px;
+}
+
+.form-group p.info:before {
+	content: "\f05a";
+	display: block;
+	font-family: FontAwesome;
+	font-size: 12px;
+	line-height: 13px;
+	height: 10px;
+	width: 10px;
+	left: 0;
+	top: 0;
+	margin: 0;
+	position: absolute;
+	text-align: center;
+}
+
+.form-group p.help {
+	margin-top: 5px;
+	position: relative;
+	line-height: 12px;
+	padding-left: 15px;
+}
+
+
+.form-group p.help:before {
+	content: "\f059";
+	display: block;
+	font-family: FontAwesome;
+	font-size: 12px;
+	line-height: 13px;
+	height: 10px;
+	width: 10px;
+	left: 0;
+	top: 0;
+	margin: 0;
+	position: absolute;
+	text-align: center;
+}
+
+
+
