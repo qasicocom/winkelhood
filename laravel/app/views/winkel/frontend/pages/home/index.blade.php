@@ -1,0 +1,5 @@
+@section( 'content' )
+
+home
+
+@endsection
