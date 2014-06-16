@@ -29,7 +29,7 @@ class AccountServiceProvider extends ServiceProvider
 		
 		// Auto create app alias with boot method.
 		$loader = AliasLoader::getInstance();
-		$loader->alias('Account', 'Winkelhood\Support\Facades\Account');
+		$loader->alias('Account', 'Winkelhood\Account\Facades\Account');
 	}
 	// --------------------------------------------------------------------
 	

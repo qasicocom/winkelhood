@@ -1,10 +1,10 @@
 <?php
 namespace Winkelhood\Account\Processors;
 use Illuminate\Support\MessageBag;
-
 use Winkelhood\Core\BaseProcessor;
 use Winkelhood\Account\Repositories\UserRepository;
 use Winkelhood\Account\Validators\AccountValidator;
+use Winkelhood\Account\Models\UserActivation;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Password;
 
@@ -183,7 +183,7 @@ class UserProcessor extends BaseProcessor
 	{
 		$key        = urldecode( $key );
 		
-		$activation = Models\UserActivation::whereCode( $key )->with( 'User' )->first();
+		$activation = UserActivation::whereCode( $key )->with( 'User' )->first();
 		
 		if( $activation && $activation->user->id )
 		{
@@ -202,7 +202,7 @@ class UserProcessor extends BaseProcessor
 			$activation->user->save();
 				
 			// try login
-			\Auth::loginUsingId( $activation->user_id );
+			Auth::loginUsingId( $activation->user_id );
 				
 			// delete the activation
 			$activation->delete();

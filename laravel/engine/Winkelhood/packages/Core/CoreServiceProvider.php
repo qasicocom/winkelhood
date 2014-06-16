@@ -25,6 +25,10 @@ class CoreServiceProvider extends ServiceProvider
 	 */
 	public function boot ()
 	{
+		require 'helpers/GlobalHelpers.php';
+		require 'macros/form.php';
+		require 'macros/html.php';
+		
 		Validator::extend( 'string', 		'Winkelhood\Core\Services\ExtendedValidator@validateString');
 		Validator::extend( 'exists_with', 	'Winkelhood\Core\Services\ExtendedValidator@validateExistsWith');
 		Validator::extend( 'exists_on', 	'Winkelhood\Core\Services\ExtendedValidator@validateExistsOn');

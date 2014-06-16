@@ -1,5 +1,5 @@
 <?php
-namespace Winkelhood\Support\Facades;
+namespace Winkelhood\Industry\Facades;
 use Illuminate\Support\Facades\Facade;
 
 /**

@@ -1,5 +1,10 @@
 <?php
 namespace Winkelhood\Account;
+use Illuminate\Support\Facades\Config;
+use Illuminate\Support\Facades\Auth;
+use Winkelhood\Support\Facades\Staff;
+use Winkelhood\Outlet\Facades\Outlet;
+use Winkelhood\Company\Facades\Company;
 use Winkelhood\Account\Processors\UserProcessor;
 use Winkelhood\Account\Processors\UsergroupProcessor;
 
@@ -81,30 +86,30 @@ class Account
 	{
 		$privileges = array();
 		
-		$user = \Auth::user();
+		$user = Auth::user();
 		
 		$privileges [ 'user' ] = $user;
 		
 		if( $user->usergroup < 2 )
 		{
 			// winkelhood admin
-			$privileges [ 'baseUrl' ] = \Config::get( 'app.costum.domain.system' );
+			$privileges [ 'baseUrl' ] = Config::get( 'app.costum.domain.system' );
 				
 		}
 		else if( $user->usergroup == 2 )
 		{
 			// company owner
-			$company = \Company::findBy( 'user_id', $user->id );
+			$company = Company::findBy( 'user_id', $user->id );
 				
 			$privileges [ 'company' ] = $company;
-			$privileges [ 'baseUrl' ] = 'http://' . $company->slug . '.' . \Config::get( 'app.costum.domain.home' );
+			$privileges [ 'baseUrl' ] = 'http://' . $company->slug . '.' . Config::get( 'app.costum.domain.home' );
 		}
 		else {
 			// company staff
-			$company = \Staff::company( $user->id );
+			$company = Staff::company( $user->id );
 				
 			$privileges [ 'company' ] = $company;
-			$privileges [ 'baseUrl' ] = 'http://' . $company->slug . '.' . \Config::get( 'app.costum.domain.home' );
+			$privileges [ 'baseUrl' ] = 'http://' . $company->slug . '.' . Config::get( 'app.costum.domain.home' );
 		}
 		
 		return (object) $privileges;

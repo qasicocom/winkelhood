@@ -1,11 +1,9 @@
 <?php
-namespace Winkelhood\Support\Facades;
-
+namespace Winkelhood\City\Facades;
 use Illuminate\Support\Facades\Facade;
 
 /**
  * City Facade Aliases
- *
  *
  * @author Alif Amri Suri (alifamri@qasico.com)
  * @since May 14, 2014 

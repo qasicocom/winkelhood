@@ -163,19 +163,19 @@ return array(
 		 * Winkelhood packages
 		 * --------------------------------------------------------------------
 		 */
-// 		'Winkelhood\Core\CoreServiceProvider',
-// 		'Winkelhood\Services\ServicesServiceProvider',
-// 		'Winkelhood\City\CityServiceProvider',
-// 		'Winkelhood\Industry\IndustryServiceProvider',
-// 		'Winkelhood\Account\AccountServiceProvider',
-// 		'Winkelhood\Company\CompanyServiceProvider',
-// 		'Winkelhood\Outlet\OutletServiceProvider',
-// 		'Winkelhood\Staff\StaffServiceProvider',
-// 		'Winkelhood\Costumer\CostumerServiceProvider',
-// 		'Winkelhood\Supplier\SupplierServiceProvider',
-// 		'Winkelhood\Warehouse\WarehouseServiceProvider',
-// 		'Winkelhood\Procurement\ProcurementServiceProvider',
-// 		'Winkelhood\Sales\SalesServiceProvider',
+		'Winkelhood\Core\CoreServiceProvider',
+		'Winkelhood\Services\ServicesServiceProvider',
+		'Winkelhood\City\CityServiceProvider',
+		'Winkelhood\Industry\IndustryServiceProvider',
+		'Winkelhood\Account\AccountServiceProvider',
+		'Winkelhood\Company\CompanyServiceProvider',
+		'Winkelhood\Outlet\OutletServiceProvider',
+		'Winkelhood\Staff\StaffServiceProvider',
+		'Winkelhood\Costumer\CostumerServiceProvider',
+		'Winkelhood\Supplier\SupplierServiceProvider',
+		'Winkelhood\Warehouse\WarehouseServiceProvider',
+		'Winkelhood\Procurement\ProcurementServiceProvider',
+		'Winkelhood\Sales\SalesServiceProvider',
 		// --------------------------------------------------------------------
 		
 		// IDE Helper

@@ -31,6 +31,10 @@
         "Intervention\\Image\\ImageServiceProvider",
         "McCool\\LaravelAutoPresenter\\LaravelAutoPresenterServiceProvider",
         "Fitztrev\\LaravelHtmlMinify\\LaravelHtmlMinifyServiceProvider",
+        "Winkelhood\\Core\\CoreServiceProvider",
+        "Winkelhood\\Services\\ServicesServiceProvider",
+        "Winkelhood\\Account\\AccountServiceProvider",
+        "Winkelhood\\Company\\CompanyServiceProvider",
         "Barryvdh\\LaravelIdeHelper\\IdeHelperServiceProvider"
     ],
     "eager": [
@@ -45,7 +49,11 @@
         "Aws\\Laravel\\AwsServiceProvider",
         "Intervention\\Image\\ImageServiceProvider",
         "McCool\\LaravelAutoPresenter\\LaravelAutoPresenterServiceProvider",
-        "Fitztrev\\LaravelHtmlMinify\\LaravelHtmlMinifyServiceProvider"
+        "Fitztrev\\LaravelHtmlMinify\\LaravelHtmlMinifyServiceProvider",
+        "Winkelhood\\Core\\CoreServiceProvider",
+        "Winkelhood\\Services\\ServicesServiceProvider",
+        "Winkelhood\\Account\\AccountServiceProvider",
+        "Winkelhood\\Company\\CompanyServiceProvider"
     ],
     "deferred": {
         "artisan": "Illuminate\\Foundation\\Providers\\ArtisanServiceProvider",
